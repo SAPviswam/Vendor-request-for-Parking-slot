@@ -1,0 +1,202 @@
+<mvc:View controllerName="com.app.vendoreservations.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:form="sap.ui.layout.form">
+    <Page id="parkinglotpage" class="page">
+        <VBox
+            id="_IDPage"
+            class="_IDPage"
+            width="100%"
+            alignItems="Center"
+            justifyContent="SpaceBetween"
+        >
+           
+            <HBox
+                id="_IDHeaderSection"
+                class="_IDHeaderSection"
+                width="100%"
+                height="30%"
+                justifyContent="SpaceBetween"
+                alignItems="Center"
+            >
+                <Image
+                    class="Supporterlogo"
+                    id="_IDSAPLogo"
+                    src="./images/Artihcuslogo.png"
+                    width="14rem"
+                    height="4.5rem"
+                />
+                <VBox
+                    id="_IDHeaderContent"
+                    class="_IDHeaderContent"
+                >
+                    <Text
+                        id="_IDHeaderText"
+                        text="Parking-lot Management System"
+                        class="HeaderText"
+                    />
+                    <Text
+                        id="_IDHeaderSubText"
+                        text="Your Space, Our Priority."
+                        class="HeaderSubText"
+                    />
+                </VBox>
+                <HBox
+                    id="_IDSideContent"
+                    class="_IDSideContent"
+                    alignItems="Center"
+                    justifyContent="SpaceBetween"
+                >
+                    <Link
+                        id="modulecontentLinkSAPEWM"
+                        text="About"
+                        href="https://www.artihcus.com/"
+                        target="_blank"
+                        class="_IDAboutBtn"
+                    />
+                </HBox>
+            </HBox>
+  
+            <HBox
+                id="_IDMainContent"
+                class="reservations-container"
+                width="100%"
+                alignItems="Center" 
+                justifyContent="Center" 
+            >
+                <VBox
+                    id="simpleForm"
+                    class="sapUiSmallMargin"
+                    width="30%"
+                >
+                    <Label
+                        id="_IDReservationLabel1"
+                        required="true"
+                        text="Vehicle no"
+                        class="slotallotlable"
+                    />
+                    <Input
+                        id="VehicleNo"
+                        value=""
+                        placeholder="Enter Vehicle no"
+                        class="inputvalue"
+                    />
+
+                    <Label
+                        id="_IDReservationLabel2"
+                        required="true"
+                        text="Vendor Name"
+                        class="slotallotlable"
+                    />
+                    <Input
+                        id="VenderName"
+                        class="inputvalue"
+                        value=""
+                        placeholder="Enter Vendor Name"
+                    />
+
+                    <Label
+                        id="_IDReservationLabel3"
+                        required="true"
+                        text="Vendor Phone no"
+                        class="slotallotlable"
+                    />
+                    <Input
+                        id="VenderNo"
+                        class="inputvalue"
+                        value=""
+                        placeholder="Enter Vendor Phone no"
+                    />
+
+                    <Label
+                        id="_IDReservationLabel4"
+                        required="true"
+                        text="Driver name"
+                        class="slotallotlable"
+                    />
+                    <Input
+                        id="DriverName"
+                        class="inputvalue"
+                        value=""
+                        placeholder="Enter Driver name"
+                    />
+
+                    <Label
+                        id="_IDReservationLabel5"
+                        required="true"
+                        text="Driver Phone no"
+                        class="slotallotlable"
+                    />
+                    <Input
+                        id="DriverNo"
+                        class="inputvalue"
+                        value=""
+                        placeholder="Enter Driver Phone no"
+                    />
+
+                    <Label
+                        id="_IDReservationLabel6"
+                        required="true"
+                        text="Type (Inbound / Outbound)"
+                        class="slotallotlable"
+                    />
+                    <Select
+                        id="trasportType"
+                        selectedKey=""
+                        width="100%"
+                    >
+                        <items>
+                            <core:Item
+                                id="IDinwarditem"
+                                text="INBOUND"
+                                key="INBOUND"
+                            />
+                            <core:Item
+                                id="IDOutwarditem"
+                                text="OUTBOUND"
+                                key="OUTBOUND"
+                            />
+                        </items>
+                    </Select>
+
+                    <Label
+                        id="_IDReservationLabel7"
+                        required="true"
+                        text="Date"
+                        class="slotallotlable"
+                    />
+                    <DatePicker
+                        id="_IDdateandtime"
+                        class="inputvalue"
+                        placeholder="Enter Date"
+                        change="onDateChange"
+                    />
+
+                    <Label id="idEmptyRow" />
+
+                    <HBox
+                        id="_IDActionBtn"
+                        class="_IDActionBtn"
+                        justifyContent="SpaceAround"
+                        alignItems="Inherit"
+                    >
+                        <Button
+                            id="idAssignSlot"
+                            text="Submit"
+                            press="onSubmit"
+                            type="Emphasized"
+                        />
+                        <Button
+                            id="idAssignSlot01"
+                            text="Cancel"
+                            press=".onCancelSubmit"
+                            type="Reject"
+                        />
+                    </HBox>
+                </VBox>
+            </HBox>
+        </VBox>
+    </Page>
+</mvc:View>

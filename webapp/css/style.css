@@ -1,0 +1,173 @@
+/* Enter your custom styles here */
+.page {
+    background-image: url("https://th.bing.com/th/id/R.1d2bc909fa6806c62ad5d9ff44200862?rik=ZLAWar2XKP5TUw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f4%2f9%2f7%2f1311143-free-download-semi-truck-wallpaper-images-2048x1536-for-meizu.jpg&ehk=2AZtU5H8lzkcXO%2bnIrTZmL5Gctf805uP4o4gs4WgflY%3d&risl=&pid=ImgRaw&r=0") !important; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}  
+
+ .HeaderText {
+    font-size: 24px; 
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+} 
+ .HeaderSubText {
+    font-size: 16px; 
+    color: rgb(226, 250, 12); 
+}
+.Heading {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 3.5rem;
+    color: blue;
+}
+._IDAboutBtn{
+    border: 2px solid blue;
+    border-radius: 5rem;
+    padding:0.4rem;
+    margin-right: 0.5rem;
+    margin-right: 2rem;
+    color: white !important;
+} 
+._IDBtn{
+    background-color: beige;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+}
+
+.Supporterlogo{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+
+.transparentForm {
+    padding-left: 4rem;
+}
+
+.HeaderText {
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+.ModulesText {
+    padding-top: 8rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+    color: blue;
+}
+
+.orangeLink {
+    color: orange;
+}
+
+.ModuleContent {
+    background-color: rgb(224, 223, 223);
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.HeadTextModuleContent {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(0, 4, 255);
+}
+
+.TextModuleContent {
+    color: white;
+}
+
+.Imagesize {
+    width: 10rem;
+}
+
+.ImagesizeTM {
+    width: 12rem;
+}
+
+.ImagesizeMFS {
+    width: 10rem;
+    border-radius: 2rem;
+}
+
+.ImagesizeBTP {
+    height: 8rem;
+    width: 10rem;
+}
+
+._IDSAPLogo {
+    width: 80px; 
+    height: auto; 
+}
+
+/* Base styles for larger screens */
+.sapUiSmallMarginTopBottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ModuleContent {
+    background-color: rgb(10, 10, 10);
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.HeadTextModuleContent {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(255, 166, 0);
+}
+
+.Imagesize {
+    width: 10rem;
+}
+
+.ImagesizeTM {
+    width: 12rem;
+}
+
+.ImagesizeMFS {
+    width: 10rem;
+    border-radius: 2rem;
+}
+
+.ImagesizeBTP {
+    height: 8rem;
+    width: 10rem;
+}
+.sapUiSmallMargin {
+    background-color: rgba(255, 208, 0, 0.541);
+    border-width: 2rem;
+    border: 2px solid black; 
+    padding: 0.8rem;
+    border-radius: 2rem;
+    position: relative;
+    z-index: 1;  
+}
+.slotallotlable {
+    width: 100%; 
+    max-width: 100%; 
+    color:black;
+    font-weight: bold;
+}
+.moveRight {
+    margin-left: 70rem !important;
+    margin-top: 0.2rem !important;
+}
+
+
+.inputvalue {
+    width: 100%; 
+    max-width: 100%; 
+}
+
+.inputfield {
+    width: 100%;
+}
